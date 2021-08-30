@@ -55,3 +55,6 @@ gem 'mongoid', '~> 7.0.5'
 gem 'dotenv-rails'
 # material components for rails
 gem 'material_components_web-sass'
+
+gem 'bootstrap', '~> 5.0.2'
+gem 'jquery-rails'

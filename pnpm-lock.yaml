@@ -1,18 +1,22 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@popperjs/core': ^2.9.3
   '@rails/actioncable': ^6.0.0
   '@rails/ujs': ^6.0.0
   '@rails/webpacker': 5.4.2
+  bootstrap: ^5.1.0
   turbolinks: ^5.2.0
   webpack: ^4.46.0
   webpack-cli: ^3.3.12
   webpack-dev-server: ^4.0.0
 
 dependencies:
+  '@popperjs/core': 2.9.3
   '@rails/actioncable': 6.1.4
   '@rails/ujs': 6.1.4
   '@rails/webpacker': 5.4.2
+  bootstrap: 5.1.0_@popperjs+core@2.9.3
   turbolinks: 5.2.0
   webpack: 4.46.0_webpack-cli@3.3.12
   webpack-cli: 3.3.12_webpack@4.46.0
@@ -1186,6 +1190,10 @@ packages:
       rimraf: 3.0.2
     dev: false
 
+  /@popperjs/core/2.9.3:
+    resolution: {integrity: sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==}
+    dev: false
+
   /@rails/actioncable/6.1.4:
     resolution: {integrity: sha512-0LmSKJTuo2dL6BQ+9xxLnS9lbkyfz2mBGeBnQ2J7o9Bn0l0q+ZC6VuoZMZZXPvABI4QT7Nfknv5WhfKYL+boew==}
     dev: false
@@ -1735,6 +1743,14 @@ packages:
 
   /boolbase/1.0.0:
     resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
+    dev: false
+
+  /bootstrap/5.1.0_@popperjs+core@2.9.3:
+    resolution: {integrity: sha512-bs74WNI9BgBo3cEovmdMHikSKoXnDgA6VQjJ7TyTotU6L7d41ZyCEEelPwkYEzsG/Zjv3ie9IE3EMAje0W9Xew==}
+    peerDependencies:
+      '@popperjs/core': ^2.9.3
+    dependencies:
+      '@popperjs/core': 2.9.3
     dev: false
 
   /brace-expansion/1.1.11:
